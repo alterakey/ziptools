@@ -1,4 +1,4 @@
-from debian:stretch
+from debian:buster
 maintainer Takahiro Yoshimura <altakey@gmail.com>
 run apt-get update -y
 run apt-get install -y convmv zip unzip locales
